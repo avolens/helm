@@ -1,3 +1,23 @@
 apiVersion: v1
-entries: {}
-generated: "2022-12-14T17:22:26.364972728+01:00"
+entries:
+  eth-node:
+  - apiVersion: v2
+    created: "2022-12-14T16:34:24.72620957Z"
+    description: Ethereum node with Geth as execution layer client and Prysm as consensus
+      layer client
+    digest: f112d2053c0182ca6e96929cc6ee48ca62227f8cc3b6fe3dd706442f082e3c60
+    keywords:
+    - blockchain
+    - ethereum
+    - geth
+    - prysm
+    maintainers:
+    - email: info@avolens.com
+      name: AVOLENS GmbH
+      url: avolens.com
+    name: eth-node
+    type: application
+    urls:
+    - https://helm.avolens.com/releases/eth-node-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-12-14T16:34:24.725468962Z"
